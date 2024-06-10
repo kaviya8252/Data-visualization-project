@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive World Map with PM2.5 Data</title>
+    <link rel="stylesheet" href="worldMap.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <script defer src="worldMap.js"></script>
+</head>
+<body>
+<div class="visualization">
+    <div class="title">World Map Visualization of PM2.5 Levels in 2020</div>
+    <div class="description">
+        The world map visualization illustrates the global distribution of PM2.5 concentrations for the year 2020.
+        PM2.5 particles are known for their ability to penetrate deep into the respiratory tract, posing significant
+        health risks. Click on a country to see detailed PM2.5 bar graph data.
+    </div>
+    <svg width="960" height="600"></svg>
+</div>
+</body>
+</html>
