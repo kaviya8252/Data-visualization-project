@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive PM2.5 Data Visualization</title>
+    <link rel="stylesheet" href="barGraph.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script defer src="barGraph.js"></script>
+</head>
+<body>
+
+<div class="visualization">
+    <div class="title">Trends in PM2.5 concentrations (1990-2020)</div>
+    <div class="description">
+        This interactive graph provides a detailed comparison of annual PM2.5 (particulate matter less than 2.5
+        micrometers) concentrations measured in countries over a thirty-year period from 1990 to 2020.
+        PM2.5 particles are known for their ability to penetrate deep into the respiratory tract, posing significant
+        health risks, including increased mortality from cardiovascular and respiratory diseases, as well as lung
+        cancer.
+    </div>
+    <select id="countrySelect"></select>
+    <div class="chart">
+        <svg width="800" height="500"></svg>
+        <div class="legend"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.visualization {
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    max-width: max-content;
+    text-align: center;
+}
+
+.chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    background: lightgrey;
+    border: 1px solid #000;
+    border-radius: 5px;
+    opacity: 0;
+}
+
+.legend {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.legend-rect {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
